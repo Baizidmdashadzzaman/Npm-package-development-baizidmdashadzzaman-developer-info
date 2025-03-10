@@ -1,0 +1,12 @@
+{
+  "name": "baizidmdashadzzaman-developer-info",
+  "version": "1.0.0",
+  "description": "This package will show you the developer info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "baizid.md.ashaduzzaman@gmail.com",
+  "license": "ISC"
+}
