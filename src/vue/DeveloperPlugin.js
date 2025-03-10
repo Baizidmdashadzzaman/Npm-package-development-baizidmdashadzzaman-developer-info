@@ -1,9 +1,7 @@
-// vue/DeveloperPlugin.js
-module.exports = {
+export default {
     install(app, options = {}) {
       const routePath = options.routePath || '/developer';
   
-      // Inline Vue component for developer info
       const DeveloperComponent = {
         name: 'DeveloperPage',
         template: `
@@ -12,7 +10,7 @@ module.exports = {
             <p><strong>Name:</strong> ${options.name || 'Your Name'}</p>
             <p><strong>Email:</strong> ${options.email || 'youremail@example.com'}</p>
             <p>
-              <strong>GitHub:</strong> 
+              <strong>GitHub:</strong>
               <a href="${options.github || '#'}" target="_blank">
                 ${options.githubText || 'GitHub'}
               </a>
@@ -21,7 +19,6 @@ module.exports = {
         `,
       };
   
-      // Ensure a Vue Router instance is provided
       if (options.router) {
         options.router.addRoute({
           path: routePath,
@@ -30,7 +27,7 @@ module.exports = {
         });
       } else {
         console.warn(
-          'Vue Router instance not provided. Pass { router } in options when installing the plugin.'
+          "Vue Router instance not provided. Please pass { router } in options when installing the plugin."
         );
       }
     },
