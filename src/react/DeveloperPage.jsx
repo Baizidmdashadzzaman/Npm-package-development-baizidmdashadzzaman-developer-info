@@ -16,6 +16,13 @@ const DeveloperPage = ({
           {github??'https://github.com/Baizidmdashadzzaman'}
         </a>
       </p>
+
+      <p>
+        <strong>CV:</strong>
+        <a target="_blank" href="https://drive.google.com/file/d/1HuLXxOB6dL58AcupKZ9qhRr7739EXLML/view" >Download CV now</a>
+      </p>
+      
+      <iframe className='borderRadSection' src="https://baizidmdashadzzaman-next.vercel.app/" width="100%" height="1000"></iframe>
     </div>
   );
 };
