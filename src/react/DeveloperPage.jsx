@@ -8,7 +8,7 @@ const DeveloperPage = ({
   return (
     <div style={{ padding: '20px' }}>
       <h1>Developer Information</h1>
-      <p><strong>Name:</strong> {name??'Baizid MD Ashadzzaman'}</p>
+      <p><strong>Developer name:</strong> {name??'Baizid MD Ashadzzaman'}</p>
       <p><strong>Email:</strong> {email??'baizid.md.ashadzzaman@gmail.com'}</p>
       <p>
         <strong>GitHub:</strong>{' '}

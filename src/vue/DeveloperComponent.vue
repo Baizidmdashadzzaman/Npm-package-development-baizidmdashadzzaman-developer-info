@@ -1,11 +1,11 @@
 <template>
     <div style="padding: 20px;">
       <h1>Developer Information</h1>
-      <p><strong>Name:</strong> {{ name }}</p>
-      <p><strong>Email:</strong> {{ email }}</p>
+      <p><strong>Developer name:</strong> {{ name??'Baizid MD Ashadzzaman' }}</p>
+      <p><strong>Email:</strong> {{ email??'baizid.md.ashadzzaman@gmail.com' }}</p>
       <p>
         <strong>GitHub:</strong>
-        <a :href="github" target="_blank">{{ githubText }}</a>
+        <a :href="github??'https://github.com/Baizidmdashadzzaman'" target="_blank">{{ githubText??'https://github.com/Baizidmdashadzzaman' }}</a>
       </p>
 
       <p>
@@ -13,7 +13,7 @@
         <a target="_blank" href="https://drive.google.com/file/d/1HuLXxOB6dL58AcupKZ9qhRr7739EXLML/view" >Download CV now</a>
       </p>
 
-      <iframe className='borderRadSection' src="https://baizidmdashadzzaman-next.vercel.app/" width="100%" height="1000"></iframe>
+      <iframe src="https://baizidmdashadzzaman-next.vercel.app/" width="100%" height="1000"></iframe>
 
     </div>
   </template>
@@ -24,11 +24,11 @@
     props: {
       name: {
         type: String,
-        default: 'Your Name'
+        default: ''
       },
       email: {
         type: String,
-        default: 'youremail@example.com'
+        default: ''
       },
       github: {
         type: String,
@@ -36,7 +36,7 @@
       },
       githubText: {
         type: String,
-        default: 'GitHub'
+        default: ''
       }
     }
   };

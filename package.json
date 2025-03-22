@@ -1,6 +1,6 @@
 {
   "name": "baizidmdashadzzaman-developer-info",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A package that auto-creates a developer information page for React and Vue.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",

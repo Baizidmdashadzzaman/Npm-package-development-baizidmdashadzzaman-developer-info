@@ -61,3 +61,5 @@ Using the Standalone Component,register the standalone component globally or loc
 ```
 
 Now, when you navigate to http://localhost:8080/developer (or your configured port), you'll see the developer information page.
+
+npm publish to publish it to npmjs.com
