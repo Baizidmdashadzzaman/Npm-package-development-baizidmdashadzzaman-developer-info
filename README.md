@@ -22,9 +22,11 @@ npm link baizidmdashadzzaman-developer-info
 
 ```bash
     <DeveloperPage
-              name="Baizid MD Ashadzzaman"
-              email="baizid.md.ashadzzaman@gmail.com"
-              github="https://github.com/Baizidmdashadzzaman"
+         name="Baizid MD Ashadzzaman"
+         email="baizid.md.ashadzzaman@gmail.com"
+         github="https://github.com/Baizidmdashadzzaman"
+         cv="https://drive.google.com/file/d/1HuLXxOB6dL58AcupKZ9qhRr7739EXLML/view"
+         portfolio="https://baizidmdashadzzaman-next.vercel.app/"
     />
 ```
 
@@ -38,10 +40,12 @@ Using the Standalone Component,register the standalone component globally or loc
 ```
 
 ```bash
-    <DeveloperPage
-              name="Baizid MD Ashadzzaman"
-              email="baizid.md.ashadzzaman@gmail.com"
-              github="https://github.com/Baizidmdashadzzaman"
+    <DeveloperComponent
+         name="Baizid MD Ashadzzaman"
+         email="baizid.md.ashadzzaman@gmail.com"
+         github="https://github.com/Baizidmdashadzzaman"
+         cv="https://drive.google.com/file/d/1HuLXxOB6dL58AcupKZ9qhRr7739EXLML/view"
+         portfolio="https://baizidmdashadzzaman-next.vercel.app/"
     />
 ```
 
