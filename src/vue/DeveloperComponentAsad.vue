@@ -2,7 +2,7 @@
   <iframe
     :srcdoc="htmlContent"
     style="width: 100%; height: 100vh; border: none;"
-    title="Developer Information"
+    title="System Developer Information"
   ></iframe>
 </template>
 
