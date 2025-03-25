@@ -66,4 +66,25 @@ Using the Standalone Component,register the standalone component globally or loc
 
 Now, when you navigate to http://localhost:8080/developer (or your configured port), you'll see the developer information page.
 
+
+## How to use it in React native
+
+```bash
+   import React from 'react';
+   import { SafeAreaView } from 'react-native';
+   import DeveloperPage from 'baizidmdashadzzaman-developer-info/src/react-native/DeveloperPage.native';
+```
+
+```bash
+   <SafeAreaView style={{ flex: 1 }}>
+      <DeveloperPage 
+        name="Baizid MD Ashadzzaman"
+        email="baizid.md.ashadzzaman@gmail.com"
+        github="https://github.com/Baizidmdashadzzaman"
+        cv="https://drive.google.com/file/d/1HuLXxOB6dL58AcupKZ9qhRr7739EXLML/view"
+        portfolio="https://baizidmdashadzzaman-next.vercel.app/"
+      />
+   </SafeAreaView>
+```
+
 npm run build and npm publish to publish it to npmjs.com

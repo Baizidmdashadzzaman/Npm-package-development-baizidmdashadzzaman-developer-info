@@ -531,7 +531,7 @@ const DeveloperPageAsad = () => {
   return (
     <iframe
       srcDoc={htmlContent}
-      style={{ width: "100%", height: "100vh", border: "none" }}
+      style={{ width: "100%", height: "1000", border: "none" }}
       title="System Developer Information"
     />
   );
